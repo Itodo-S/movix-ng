@@ -1,0 +1,23 @@
+<div class="auth">
+    <div class="auth__container">
+      <img [src]="logo" alt="Brand Logo" />
+      <p class="auth__title">Hi, Welcome</p>
+      <p class="auth__sub-title">
+        Please sign-in to your account and start your experience
+      </p>
+      <form action="" class="auth__form">
+        <app-input placeholder="Full Name" type="text"></app-input>
+        <app-input placeholder="Email" type="email"></app-input>
+        <app-input
+          [url]="eyeClose"
+          placeholder="Password"
+          type="password"
+        ></app-input>
+  
+        <button class="auth__button" type="submit">REGISTER</button>
+  
+        <p class="auth__redirect">Already have an account? <a routerLink="signin">Login</a></p>
+      </form>
+    </div>
+  </div>
+  

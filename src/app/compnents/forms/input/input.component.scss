@@ -1,0 +1,11 @@
+.input {
+  @apply w-full p-3 border border-[#4C4E6461] rounded-lg flex justify-center items-center mt-5;
+
+  &__main {
+    @apply w-full focus:outline-none font-medium;
+  }
+
+  &__icon {
+    @apply w-5 h-4 cursor-pointer;
+  }
+}
